@@ -23,11 +23,11 @@ def add_new2(mat):
     c= random.randint(0,3)
     
     #while loop breaks as selected index is 0
-    while(mat[r]!=0):
+    while(mat[r][c]!=0):
         r= random.randint(0,3)
         c= random.randint(0,3)
     #placing 2 at empty random cell
-    mat[r]=2
+    mat[r][c]=2
     
 # function to understand current state of matrix
 def current_state_matrix(mat):

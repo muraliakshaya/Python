@@ -4,7 +4,7 @@ if __name__=='__main__':
     mat=logic.start_game()
     
 while(True):
-    x=input("Pressthe command: ")
+    x=input("Press the command: ")
     if(x=='W' or x=='w'):
         mat,flag=logic.move_up(mat)
         status=logic.current_state_matrix(mat)
