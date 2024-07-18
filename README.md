@@ -5,3 +5,4 @@ All python learnings:
   3. 21-number-game
   4. basic_calculator
   5. 2048 game
+  6. dice roll game
