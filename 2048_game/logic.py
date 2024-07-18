@@ -3,9 +3,10 @@ import random
 
 #function to initialize game
 def start_game():
-    mat=[]
-    for i in range(4):
-        mat.append([0]*4)
+    # mat=[]
+    # for i in range(4):
+    #     mat.append([0]*4)
+    mat = [[0] * 4 for _ in range(4)]
         
     print("Commands are as follows:  ")
     print(" 'W' or 'w' : Move up")
@@ -26,8 +27,10 @@ def add_new2(mat):
     while(mat[r][c]!=0):
         r= random.randint(0,3)
         c= random.randint(0,3)
-    #placing 2 at empty random cell
-    mat[r][c]=2
+    # #placing 2 at empty random cell
+    # mat[r][c]=2
+    # Placing 2 or 4 at empty random cell
+    mat[r][c] = random.choice([2,2])
     
 # function to understand current state of matrix
 def current_state_matrix(mat):
