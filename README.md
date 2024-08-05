@@ -6,3 +6,4 @@ All python learnings:
   4. basic_calculator
   5. 2048 game
   6. dice roll game
+  7. Quiz game
