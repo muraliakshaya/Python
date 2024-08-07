@@ -8,3 +8,4 @@ All python learnings:
   6. Dice roll game
   7. Quiz game
   8. Budget_tracker_app
+  9. Hangman game
