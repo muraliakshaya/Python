@@ -16,7 +16,7 @@ def show_budget_details(show_budget, expenses):
     for expense in expenses:
         print(f" -{expense['description']}: {expense['amount']}")
     print(f"Total Spent:{get_total_expenses(expenses)}")
-    # print(f"Remaining budget:{get_balance(budget,expenses)}")
+    print(f"Remaining budget:{get_balance(show_budget,expenses)}")
 
 def load_budget_data(filepath):
     try:
