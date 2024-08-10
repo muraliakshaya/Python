@@ -9,3 +9,4 @@ All python learnings:
   7. Quiz game
   8. Budget_tracker_app
   9. Hangman game
+  10. snake-game
