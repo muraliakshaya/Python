@@ -10,3 +10,6 @@ All python learnings:
   8. Budget_tracker_app
   9. Hangman game
   10. snake-game
+  11. budget-tracker-app
+  12. Caller_ID_lookup
+  13. Currency converter
